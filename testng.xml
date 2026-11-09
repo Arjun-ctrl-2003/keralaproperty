@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="test1">
+<parameter name="user" value="anu"></parameter>
+<parameter name="pass" value="1234"></parameter>
+<classes>
+
+<class name="TESTKERALAPRO.KERAKLATEST"></class>
+</classes>
+
+</test>
+
+<test name="test2">
+<parameter name="user" value="priya"></parameter>
+<parameter name="pass" value="456123"></parameter>
+<classes>
+<class name="TESTKERALAPRO.KERAKLATEST"></class>
+</classes>
+
+</test>
+<test name="test3">
+<parameter name="user" value="arabsss@gmai.com"></parameter>
+<parameter name="pass" value="anu123wer"></parameter>
+<classes>
+<class name="TESTKERALAPRO.KERAKLATEST"></class>
+</classes>
+
+</test>
+
+ 
+</suite> <!-- Suite -->
+  
